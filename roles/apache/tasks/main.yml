@@ -1,7 +1,7 @@
 ---
 # tasks file for apache
-- name: Install apache
-  yum:
+- name : Install apache
+  yum: 
     name: "{{ pkg }}"
     state: latest
 - name: Apache service start

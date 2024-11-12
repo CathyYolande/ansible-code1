@@ -3,10 +3,10 @@ dependencies: []
 
 galaxy_info:
   role_name: java
-  author: serge
+  author: geerlingguy
   description: Java for Linux
-  company: "Data Service group INC"
-  license: ""
+  company: "Midwestern Mac, LLC"
+  license: "license (BSD, MIT)"
   min_ansible_version: 2.10
   platforms:
     - name: Fedora
@@ -28,6 +28,7 @@ galaxy_info:
         - bionic
         - focal
         - jammy
+        - noble
     - name: FreeBSD
       versions:
         - 10.2
